@@ -1,4 +1,4 @@
-# Why should you clear your pasteboard when exiting your app?
+# Pasteboard
 <img width="300" src="https://user-images.githubusercontent.com/47273077/218298094-9fd9434a-b373-4b9d-b2cc-0c77302704ca.gif">
 
 ```swift
