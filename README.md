@@ -52,4 +52,28 @@ https://developer.apple.com/documentation/uikit/app_and_environment/scenes/prepa
 
 <img width="300" src="https://user-images.githubusercontent.com/47273077/218303133-2fded363-732b-471b-8dae-d983dac349e3.gif">
 
+```swift
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.UIApplicationWillResignActive, object: nil, queue: OperationQueue.main) { _ in
+            for view in self.view.subviews {
+                if let textField = view as? UITextField {
+                    textField.text = nil
+                }
+            }
+        }
+        
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self)
+        super.viewDidDisappear(animated)
+    }
+```
+
+<img width="300" src="https://user-images.githubusercontent.com/47273077/218303283-81fa6e31-16d6-4cac-a020-b1e5b767e18d.gif">
+
 
