@@ -106,5 +106,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 ```
 
+<img width="300" src="https://user-images.githubusercontent.com/47273077/218303834-f20bd403-78f8-440b-8084-e84dc3b46fa3.gif">
 
-<img width="300" src="https://user-images.githubusercontent.com/47273077/218303283-81fa6e31-16d6-4cac-a020-b1e5b767e18d.gif">
+
