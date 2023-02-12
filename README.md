@@ -50,3 +50,6 @@ https://developer.apple.com/documentation/uikit/app_and_environment/scenes/prepa
 
 <img width="993" alt="スクリーンショット_2023_02_12_18_26" src="https://user-images.githubusercontent.com/47273077/218303011-c8f5c200-af85-4841-8f2f-008f3c207aa3.png">
 
+<img width="300" src="https://user-images.githubusercontent.com/47273077/218303133-2fded363-732b-471b-8dae-d983dac349e3.gif">
+
+
