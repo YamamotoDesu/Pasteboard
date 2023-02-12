@@ -41,3 +41,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIPasteboard.general.items = [[String: Any]()]
     }
 ```
+
+<img width="300" src="https://user-images.githubusercontent.com/47273077/218298796-e175e0a2-af11-4096-b90c-b2933910a594.gif">
