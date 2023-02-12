@@ -76,4 +76,35 @@ class ViewController: UIViewController {
 
 <img width="300" src="https://user-images.githubusercontent.com/47273077/218303283-81fa6e31-16d6-4cac-a020-b1e5b767e18d.gif">
 
+```swift
 
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+    
+    static var customPasteboard = UIPasteboard(name: UIPasteboardName(rawValue: "CustomPasteboard"), create: true)
+    
+    lazy var spashView: UIImageView = {
+        let imageView = UIImageView(frame: self.window!.frame)
+        imageView.backgroundColor = UIColor.green
+        return imageView
+    }()
+
+
+    func applicationWillResignActive(_ application: UIApplication) {
+        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        
+        self.window?.addSubview(spashView)
+    }
+
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        spashView.removeFromSuperview()
+    }
+    
+```
+
+
+<img width="300" src="https://user-images.githubusercontent.com/47273077/218303283-81fa6e31-16d6-4cac-a020-b1e5b767e18d.gif">
