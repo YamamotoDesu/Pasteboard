@@ -43,3 +43,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 ```
 
 <img width="300" src="https://user-images.githubusercontent.com/47273077/218298796-e175e0a2-af11-4096-b90c-b2933910a594.gif">
+
+## Prepare your UI for the app snapshot
+https://developer.apple.com/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background
+<img width="721" alt="スクリーンショット_2023_02_12_18_14" src="https://user-images.githubusercontent.com/47273077/218302472-61033623-c214-45b5-a86a-31cda6418fc5.png">
+<img width="996" alt="スクリーンショット_2023_02_12_18_11" src="https://user-images.githubusercontent.com/47273077/218302455-5a77b9ba-1ce4-4009-bb95-56c664bfd0bc.png">
+
